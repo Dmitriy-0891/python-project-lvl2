@@ -12,3 +12,6 @@ package-install:
 
 lint:
 	poetry run flake8 gendiff
+
+test_1:
+	poetry run python3 -m tests.test_generate_diff
